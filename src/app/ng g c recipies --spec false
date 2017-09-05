@@ -1,0 +1,10 @@
+ng g c recipies --spec false
+ng g c recipies/recipe-list --spec false
+
+ng g c recipies/recipe-detail --spec false
+
+ng g c recipies/recipe-list/recipe-item --spec false
+
+ng g c shopping-list --spec false
+
+ng g c shopping-list/shopping-edit --spec false
