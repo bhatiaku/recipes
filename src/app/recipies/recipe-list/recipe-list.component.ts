@@ -7,7 +7,14 @@ import {Recipe} from '../recipe.model';
   styleUrls: ['./recipe-list.component.css']
 })
 export class RecipeListComponent implements OnInit {
-  recipies: Recipe[] = []
+  recipes: Recipe[] = [
+    new Recipe("chole", "punjabi dish", "https://www.tarladalal.com/members/9306/big/big_chole_(_chaat_recipe)-8398.jpg?size=696X905"),
+    new Recipe("chole", "punjabi dish", "https://www.tarladalal.com/members/9306/big/big_chole_(_chaat_recipe)-8398.jpg?size=696X905"),
+    new Recipe("chole", "punjabi dish", "https://www.tarladalal.com/members/9306/big/big_chole_(_chaat_recipe)-8398.jpg?size=696X905"),
+    new Recipe("chole", "punjabi dish", "https://www.tarladalal.com/members/9306/big/big_chole_(_chaat_recipe)-8398.jpg?size=696X905"),
+    new Recipe("chole", "punjabi dish", "https://www.tarladalal.com/members/9306/big/big_chole_(_chaat_recipe)-8398.jpg?size=696X905"),
+    new Recipe("chole", "punjabi dish", "https://www.tarladalal.com/members/9306/big/big_chole_(_chaat_recipe)-8398.jpg?size=696X905")
+  ]
 
   constructor() { }
 
