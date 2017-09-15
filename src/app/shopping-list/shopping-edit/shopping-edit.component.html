@@ -3,14 +3,20 @@
     <form>
       <div class="col-sm-5 form-group">
         <label for="name">Name</label>
-        <input type="text" id="name" class="form-control">
+        <input type="text"
+         id="name"
+         #inName
+         class="form-control">
       </div>
       <div class="col-sm-3 form-group">
         <label for="amount">Amount</label>
-        <input type="number" id="amount" class="form-control">
+        <input type="number"
+        id="amount"
+        #inAmount
+        class="form-control">
       </div>
       <div class="col-xs-12">
-        <button class="btn btn-success" type='submit'>Add</button>
+        <button class="btn btn-success" (click) = "onAdd(); false" type='submit'>Add</button>
         <button class="btn btn-success" type='submit'>Add</button>
         <button class="btn btn-primary" type='submit'>Clear</button>
       </div>
