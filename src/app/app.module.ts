@@ -8,7 +8,8 @@ import { RecipeListComponent } from './recipies/recipe-list/recipe-list.componen
 import { RecipeDetailComponent } from './recipies/recipe-detail/recipe-detail.component';
 import { RecipeItemComponent } from './recipies/recipe-list/recipe-item/recipe-item.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
-import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component'
+import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
+import { ExpandDirective } from './directives/expand.directive'
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
     RecipeDetailComponent,
     RecipeItemComponent,
     ShoppingListComponent,
-    ShoppingEditComponent
+    ShoppingEditComponent,
+    ExpandDirective
   ],
   imports: [
     BrowserModule
